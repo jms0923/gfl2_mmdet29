@@ -33,7 +33,7 @@ class ResLayer(nn.Sequential):
                  downsample_first=True,
                  **kwargs):
         self.block = block
-
+        # print('kwargs : ', kwargs)
         downsample = None
         if stride != 1 or inplanes != planes * block.expansion:
             downsample = []

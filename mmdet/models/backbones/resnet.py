@@ -183,6 +183,7 @@ class Bottleneck(nn.Module):
                 bias=False)
         else:
             assert self.conv_cfg is None, 'conv_cfg must be None for DCN'
+            # print('dcn : ', dcn)
             self.conv2 = build_conv_layer(
                 dcn,
                 planes,

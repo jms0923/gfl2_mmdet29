@@ -12,6 +12,7 @@ from .fsaf_head import FSAFHead
 from .ga_retina_head import GARetinaHead
 from .ga_rpn_head import GARPNHead
 from .gfl_head import GFLHead
+from .gfocal_head import GFocalHead
 from .guided_anchor_head import FeatureAdaption, GuidedAnchorHead
 from .nasfcos_head import NASFCOSHead
 from .paa_head import PAAHead
@@ -36,5 +37,5 @@ __all__ = [
     'PISARetinaHead', 'PISASSDHead', 'GFLHead', 'CornerHead', 'YOLACTHead',
     'YOLACTSegmHead', 'YOLACTProtonet', 'YOLOV3Head', 'PAAHead',
     'SABLRetinaHead', 'CentripetalHead', 'VFNetHead', 'TransformerHead',
-    'StageCascadeRPNHead', 'CascadeRPNHead', 'EmbeddingRPNHead'
+    'StageCascadeRPNHead', 'CascadeRPNHead', 'EmbeddingRPNHead', 'GFocalHead'
 ]
